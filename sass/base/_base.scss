@@ -1,0 +1,46 @@
+//COLORS
+$color-primary: #F2785C;
+$color-secondary: #0D606F;
+$color-secondary-light: #0791a9;
+$color-white: #FFFFFF;
+$color-black: #000;
+
+//FONTS
+$font-primary: 'Aleo', sans-serif;
+$font-secondary: 'Red Hat Text', sans-serif;
+
+$bp-large: 75em; //1200px
+$bp-small: 37.5em; //600px
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px; 10px/16px = 62.5%
+    scroll-behavior: smooth;
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 62.5%;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 50%;
+    }
+
+
+}
+
+body {
+    font-family: $font-primary;
+    color: $color-black;
+    font-weight: 400;
+    line-height: 1.2;
+    background-color: $color-white;
+
+}

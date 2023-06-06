@@ -1,0 +1,11 @@
+.container {
+    margin: 0 auto;
+    width: 144rem;
+
+
+
+    @media only screen and (max-width: $bp-small) {
+        // width: 90rem;
+        margin: 0 auto;
+    }
+}

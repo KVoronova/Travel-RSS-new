@@ -1,0 +1,100 @@
+.heading-1 {
+    display: block;
+    font-family: 'Aleo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8rem;
+    line-height: 9.6rem;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+
+}
+
+
+.heading-2 {
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+
+.heading-3 {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 5.3rem;
+    color: $color-primary;
+    text-transform: uppercase;
+    margin: 8rem 0rem 4rem 0rem;
+    text-align: center;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 6.5rem;
+        margin: 8rem 0rem 8rem 0rem;
+    }
+
+}
+
+.heading-4 {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 4.2rem;
+    color: $color-secondary;
+    margin-bottom: 4rem;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 4.2rem;
+        font-weight: 600;
+    }
+}
+
+.text-steps {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: $color-secondary;
+    text-align: center;
+    padding-top: 3rem;
+
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 4.5rem;
+        // hyphens: auto;
+    }
+}
+
+.text-steps-1 {
+    @media only screen and (max-width: $bp-small) {
+        text-align: start;
+        line-height: 4rem;
+        padding-top: 6rem;
+        margin-right: 4rem;
+    }
+}
+
+.text-steps-2 {
+    @media only screen and (max-width: $bp-small) {
+        text-align: center;
+        line-height: 4rem;
+        white-space: nowrap;
+        padding-top: 6rem;
+
+
+    }
+}
+
+.text-steps-3 {
+    @media only screen and (max-width: $bp-small) {
+        text-align: end;
+        line-height: 4rem;
+        padding-top: 6rem;
+    }
+}

@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 59rem;
+        width: 72.89rem;
+        height: 3.36rem;
+
+        @media only screen and (max-width: $bp-small) {
+            margin: 18rem 41rem 4rem 41rem;
+            align-items: inherit;
+        }
+    }
+
+
+    &__text {
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+        color: $color-white;
+
+        @media only screen and (max-width: $bp-small) {
+            display: none;
+        }
+
+    }
+
+    &__icon {
+        margin-left: 2.28rem;
+
+        &:hover {
+            filter: drop-shadow(0 0 10px $color-primary);
+        }
+
+        &:hover path {
+            fill: $color-primary;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            width: 12rem;
+            height: 12rem;
+            margin-left: 8rem;
+
+        }
+    }
+}
